@@ -38,7 +38,7 @@ mongoose
     .connect(process.env.MONGODB_URI)
     .then(() => console.log("Conexión exitosa"))
     .catch((error) => console.log(error));
-//Conexión al puerto
+//Conexión al puerto hiiiiiiiiiiiiiii
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 });
